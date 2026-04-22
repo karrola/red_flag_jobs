@@ -1,1 +1,13 @@
 # red_flag_jobs
+
+## instrukcja uruchomienia
+
+1. sklonuj repozytorium
+2. zainstaluj zależności
+   pip install -r requirements.txt
+3. zrób migracje
+   python manage.py migrate
+4. uruchom serwer
+   python manage.py runserver
+
+aplikacja będzie dostępna pod adresem: http://127.0.0.1:8000/
