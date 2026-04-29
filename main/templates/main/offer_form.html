@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="POST">
+<form action="{% url 'offer_form' %}" method="POST">
             <label for="company">Firma:</label>
             <input type="text" id="company" name="company"><br><br>
             <label for="position">Stanowisko</label>

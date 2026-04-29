@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Wynik firmy</title>
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
 </head>
 <body>
-    <h2>to dobra firma</h2>
+    <div>*tu będzie reszta*</div>
+<div>
+
+    <div hx-get="{% url 'wordcloud_fragment' %}"
+     hx-trigger="load"
+     hx-swap="outerHTML">
+
+    <p>Trwa generowanie chmury słów...</p>
+
+
+</div>
 </body>
 </html>
