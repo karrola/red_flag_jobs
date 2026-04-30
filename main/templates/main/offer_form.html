@@ -10,11 +10,13 @@
     {% csrf_token %}
             <label for="company">Firma:</label>
             <input type="text" id="company" name="company"><br><br>
+            <label for="gowork_url">Link do strony firmy na gowork.pl</label>
+            <input type="text" id="gowork_url" name="gowork_url"><br><br>
             <label for="position">Stanowisko</label>
             <input type="text" id="position" name="position"><br><br>
             <label for="offer">Tekst oferty</label>
             <input type="text" id="offer" name="offer"><br><br>
-            <button><a href="{% url 'company_score' %}">Zbadaj</a></button>
+            <button>Zbadaj</button>
     </form>
 </body>
 </html>

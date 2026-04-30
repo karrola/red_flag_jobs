@@ -3,6 +3,7 @@ import base64
 from io import BytesIO
 from wordcloud import WordCloud
 from collections import Counter
+import matplotlib.pyplot as plt
 
 nlp = spacy.load("pl_core_news_sm")
 
@@ -25,12 +26,20 @@ def keywords(reviews: list[str]) -> Counter:
     return Counter(words)
 
 
+def color_func(*args, **kwargs):
+    cmap = plt.cm.Purples
+    import random
+    return "rgba({}, {}, {}, 1)".format(
+        *[int(x * 255) for x in cmap(random.uniform(0.4, 0.9))[:3]]
+    )
+
+
 def generate_wordcloud(frequency: Counter) -> str:
     wordcloud = WordCloud(
         width=1200,
         height=600,
         background_color="white",
-        colormap="Purples",
+        color_func=color_func,
         max_words=80,
     ).generate_from_frequencies(frequency)
 
