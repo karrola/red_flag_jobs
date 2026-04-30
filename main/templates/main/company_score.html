@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<html<!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
@@ -8,15 +8,14 @@
 </head>
 <body>
     <div>*tu będzie reszta*</div>
-<div>
 
-    <div hx-get="{% url 'wordcloud_fragment' %}"
-     hx-trigger="load"
-     hx-swap="outerHTML">
+    {% if gowork_url %}
+    <div hx-get="{% url 'wordcloud_fragment' %}?gowork_url={{ gowork_url }}"
+         hx-trigger="load"
+         hx-swap="outerHTML">
+        <p>Trwa generowanie chmury słów...</p>
+    </div>
+    {% endif %}
 
-    <p>Trwa generowanie chmury słów...</p>
-
-
-</div>
 </body>
 </html>
