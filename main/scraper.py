@@ -1,7 +1,7 @@
 import asyncio
 from playwright.async_api import async_playwright
 
-URL_GOWORK = "https://www.gowork.pl/opinie_czytaj,949234"
+URL_GOWORK = "https://www.gowork.pl/opinie_czytaj,56139"
 SELECTOR = "span.MuiTypography-body1.whitespace-pre-wrap"
 
 
