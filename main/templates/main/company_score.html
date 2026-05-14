@@ -8,6 +8,11 @@
 </head>
 <body>
     <div>*tu będzie reszta*</div>
+    {% if highlighted_text %}
+        <div style="line-height: 1.8; white-space: pre-wrap;">
+            {{ highlighted_text }}
+        </div>
+    {% endif %}
 
     {% if gowork_url %}
     <div hx-get="{% url 'wordcloud_fragment' %}?gowork_url={{ gowork_url }}"

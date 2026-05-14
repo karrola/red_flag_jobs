@@ -58,7 +58,7 @@ def keywords(reviews: list[str]) -> Counter:
         
         words.extend(t.lemma_ for t in valid_tokens)
         bigrams.extend(
-            " ".join(t.text for t in b)   # oryginalna forma dla bigramów
+            " ".join(t.text for t in b) 
             for b in ngrams(valid_tokens, 2)
         )
 
