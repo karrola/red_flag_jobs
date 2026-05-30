@@ -21,14 +21,19 @@ def offer_form(request):
 
 def company_score(request):
     gowork_url = request.session.get("gowork_url", "")
-    offer_text = request.session.get("offer_text", "") 
-    
-    highlighted_text = highlight_keywords(offer_text) if offer_text else None 
 
     return render(request, "main/company_score.html", {
         "gowork_url": gowork_url,
-        "highlighted_text": highlighted_text, 
     })
+
+def offer_analysis(request):
+    offer_text = request.session.get("offer_text", "") 
+    highlighted_text, detections = highlight_keywords(offer_text) if offer_text else (None, [])
+    return render(request, 'main/offer_analysis.html', {
+        "highlighted_text": highlighted_text,
+        "detections": detections
+    })
+
 
 def wordcloud_fragment(request):
     gowork_url = request.GET.get("gowork_url", "")
@@ -42,7 +47,7 @@ def wordcloud_fragment(request):
     reviews = get_reviews(gowork_url)
     frequency = keywords(reviews)
     wordcloud_b64 = generate_wordcloud(frequency)
-    cache.set("gowork_wordcloud", wordcloud_b64, timeout=60 * 60)
+    cache.set("gowork_url", wordcloud_b64, timeout=60 * 60)
 
     return render(request, "main/wordcloud.html", {"wordcloud": wordcloud_b64})
 
