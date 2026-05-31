@@ -1,22 +1,180 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Analiza Oferty Pracy</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 15px;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4eaf5 100%);
+        }
+
+        .form-container {
+            width: 100%;
+            max-width: 800px;
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+        }
+
+        .form-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .form-header h1 {
+            color: #111827;
+            margin-bottom: 10px;
+            font-size: 2rem;
+        }
+
+        .form-header p {
+            color: #6b7280;
+            font-size: 1rem;
+        }
+
+        .form-group {
+            margin-bottom: 22px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #374151;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #d1d5db;
+            border-radius: 10px;
+            font-size: 1rem;
+            transition: all 0.2s ease;
+            font-family: inherit;
+        }
+
+        input:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #2563eb;
+            box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.15);
+        }
+
+        textarea {
+            min-height: 220px;
+            resize: vertical;
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            border: none;
+            border-radius: 10px;
+            background: #2563eb;
+            color: white;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s ease,
+                        transform 0.2s ease;
+        }
+
+        button:hover {
+            background: #1d4ed8;
+            transform: translateY(-2px);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        @media (max-width: 768px) {
+            .form-container {
+                padding: 25px;
+            }
+
+            .form-header h1 {
+                font-size: 1.7rem;
+            }
+
+            textarea {
+                min-height: 180px;
+            }
+        }
+    </style>
 </head>
 <body>
-<form action="{% url 'offer_form' %}" method="POST">
-    {% csrf_token %}
-            <label for="company">Firma:</label>
-            <input type="text" id="company" name="company"><br><br>
-            <label for="gowork_url">Link do strony firmy na gowork.pl</label>
-            <input type="text" id="gowork_url" name="gowork_url"><br><br>
-            <label for="position">Stanowisko</label>
-            <input type="text" id="position" name="position"><br><br>
-            <label for="offer">Tekst oferty</label>
-            <textarea id="offer" name="offer"></textarea>
-            <button>Zbadaj</button>
-    </form>
+
+    <div class="form-container">
+
+        <div class="form-header">
+            <h1>Analiza Oferty Pracy</h1>
+            <p>Wprowadź dane firmy oraz treść ogłoszenia, aby rozpocząć analizę.</p>
+        </div>
+
+        <form action="{% url 'offer_form' %}" method="POST">
+
+            <div class="form-group">
+                <label for="company">Firma</label>
+                <input
+                    type="text"
+                    id="company"
+                    name="company"
+                    placeholder="np. Google Polska"
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="gowork_url">Link do strony firmy na GoWork.pl</label>
+                <input
+                    type="url"
+                    id="gowork_url"
+                    name="gowork_url"
+                    placeholder="https://www.gowork.pl/..."
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="position">Stanowisko</label>
+                <input
+                    type="text"
+                    id="position"
+                    name="position"
+                    placeholder="np. Frontend Developer"
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="offer">Treść oferty</label>
+                <textarea
+                    id="offer"
+                    name="offer"
+                    placeholder="Wklej tutaj pełną treść ogłoszenia..."
+                ></textarea>
+            </div>
+
+            <button type="submit">
+                Zbadaj ofertę
+            </button>
+        </form>
+
+    </div>
+
 </body>
 </html>
