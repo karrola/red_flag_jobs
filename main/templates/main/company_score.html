@@ -4,23 +4,141 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wynik firmy</title>
+
     <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4eaf5 100%);
+            color: #1f2937;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .page-title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .page-title h1 {
+            font-size: 2.2rem;
+            color: #111827;
+            margin-bottom: 10px;
+        }
+
+        .page-title p {
+            color: #6b7280;
+            font-size: 1rem;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            border: 1px solid #e5e7eb;
+            transition: transform 0.2s ease,
+                        box-shadow 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 14px 35px rgba(0, 0, 0, 0.12);
+        }
+
+        .loading-box {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: #4b5563;
+            font-size: 1rem;
+        }
+
+        .spinner {
+            width: 22px;
+            height: 22px;
+            border: 3px solid #dbeafe;
+            border-top-color: #2563eb;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .section-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: #1e40af;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 20px 15px;
+            }
+
+            .page-title h1 {
+                font-size: 1.8rem;
+            }
+
+            .card {
+                padding: 18px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <div>*tu będzie reszta*</div>
 
-    <div hx-get="{% url 'offer_analysis' %}"
-        hx-trigger="load"
-        hx-swap="outerHTML">
-        <p>Trwa analizowanie oferty...</p>
+    <div class="container">
+
+        <div class="page-title">
+            <h1>Analiza firmy</h1>
+            <p>Przygotowujemy wyniki analizy i dodatkowe informacje.</p>
+        </div>
+
+        <div class="card">
+            <div class="section-title">Podstawowe informacje</div>
+            <div>*tu będzie reszta*</div>
+        </div>
+
+        <div class="card"
+             hx-get="{% url 'offer_analysis' %}"
+             hx-trigger="load"
+             hx-swap="outerHTML">
+            <div class="loading-box">
+                <div class="spinner"></div>
+                <p>Trwa analizowanie oferty...</p>
+            </div>
+        </div>
+
+        <div class="card"
+             hx-get="{% url 'wordcloud_fragment' %}?gowork_url={{ gowork_url }}"
+             hx-trigger="load"
+             hx-swap="outerHTML">
+            <div class="loading-box">
+                <div class="spinner"></div>
+                <p>Trwa generowanie chmury słów...</p>
+            </div>
+        </div>
+
     </div>
 
-    {% if gowork_url %}
-    <div hx-get="{% url 'wordcloud_fragment' %}?gowork_url={{ gowork_url }}"
-         hx-trigger="load"
-         hx-swap="outerHTML">
-        <p>Trwa generowanie chmury słów...</p>
-    </div>
-    {% endif %}
 </body>
 </html>
