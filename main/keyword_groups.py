@@ -212,7 +212,6 @@ KEYWORD_GROUPS = [
     },
     {
         "translation": "Warto zwrócić uwagę, czy w ofercie jest jasno podane wynagrodzenie. Brak tej informacji może czasem oznaczać, że firma nie ma do końca przejrzystego podejścia do kwestii finansowych lub dopiero szacuje budżet. Podobnie, jeśli zarobki są uzależnione wyłącznie od efektów, dobrze sprawdzić, czy istnieje też jakaś stała podstawa, w przeciwnym razie może to prowadzić do presji lub wypalenia, zwłaszcza gdy cele są trudne do osiągnięcia. Dobrą praktyką jest zapytać rekrutera o widełki lub medianę wynagrodzeń w zespole, ponieważ to pomoże ocenić, czy oferta jest uczciwa i przejrzysta.",
-        "translation": "Warto zwrócić uwagę, czy w ofercie jest jasno podane wynagrodzenie. Brak tej informacji może czasem oznaczać, że firma nie ma do końca przejrzystego podejścia do kwestii finansowych lub dopiero szacuje budżet. Podobnie, jeśli zarobki są uzależnione wyłącznie od efektów, dobrze sprawdzić, czy istnieje też jakaś stała podstawa, w przeciwnym razie może to prowadzić do presji lub wypalenia, zwłaszcza gdy cele są trudne do osiągnięcia. Dobrą praktyką jest zapytać rekrutera o widełki lub medianę wynagrodzeń w zespole, ponieważ to pomoże ocenić, czy oferta jest uczciwa i przejrzysta.",
         "phrases": [
             "wynagrodzenie uzależnione od efektów",
             "atrakcyjny system prowizyjny",
@@ -330,9 +329,6 @@ KEYWORD_GROUPS = [
             "generalista",
             "jack of all trades",
             "master of none",
-            "szeroki zakres obowiązków",
-            "osoba do wszystkiego",
-            "wszechstronność",
         ],
     },
     {
@@ -847,7 +843,6 @@ KEYWORD_GROUPS = [
     },
     {
         "translation": "To sformułowanie może czasem oznaczać pewną ostrożność firmy, zwłaszcza na początku współpracy. Być może chodzi o to, żeby pracownik najpierw poznał zespół i zasady pracy w biurze – często przez okres 3–6 miesięcy. Nie musi to od razu wynikać z braku zaufania, ale warto mieć świadomość, że w niektórych firmach późniejsza elastyczność bywa ograniczona (np. \"w tej chwili nie ma takiej opcji\", \"zespół woli być razem\"). Dla osób, którym zależy na rzeczywistej pracy zdalnej, dobrze będzie zapytać o konkretne warunki: po jakim czasie, na jakich zasadach i czy faktycznie pracownicy mogą z tej opcji skorzystać.",
-        "translation": "To sformułowanie może czasem oznaczać pewną ostrożność firmy, zwłaszcza na początku współpracy. Być może chodzi o to, żeby pracownik najpierw poznał zespół i zasady pracy w biurze – często przez okres 3–6 miesięcy. Nie musi to od razu wynikać z braku zaufania, ale warto mieć świadomość, że w niektórych firmach późniejsza elastyczność bywa ograniczona (np. \"w tej chwili nie ma takiej opcji\", \"zespół woli być razem\"). Dla osób, którym zależy na rzeczywistej pracy zdalnej, dobrze będzie zapytać o konkretne warunki: po jakim czasie, na jakich zasadach i czy faktycznie pracownicy mogą z tej opcji skorzystać.",
         "phrases": [
             "możliwość pracy zdalnej po wdrożeniu",
             "praca zdalna po okresie próbnym",
@@ -876,7 +871,6 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "Warto docenić, że firma szuka osób zmotywowanych do rozwoju i samodzielnego uczenia się, to pozytywny sygnał. Jednocześnie dobrze jest podczas rozmowy sprawdzić, czy samodzielność w zdobywaniu wiedzy idzie w parze z jakimś podstawowym wsparciem ze strony firmy. Można zapytać, czy jest onboarding, dostęp do mentora, budżet szkoleniowy czy ktoś wyznaczony do pomocy na starcie. Wiele firm łączy zachętę do self-learningu z faktycznym wdrożeniem i wsparciem, dzięki czemu zachowany jest dobry balans. Jeśli jednak firma mówi wyłącznie o rzuceniu na głęboką wodę lub uczeniu się na własnych błędach bez żadnej struktury, warto mieć świadomość, że dla niektórych osób może to być trudne do ogarnięcia na początek.",
         "translation": "Warto docenić, że firma szuka osób zmotywowanych do rozwoju i samodzielnego uczenia się, to pozytywny sygnał. Jednocześnie dobrze jest podczas rozmowy sprawdzić, czy samodzielność w zdobywaniu wiedzy idzie w parze z jakimś podstawowym wsparciem ze strony firmy. Można zapytać, czy jest onboarding, dostęp do mentora, budżet szkoleniowy czy ktoś wyznaczony do pomocy na starcie. Wiele firm łączy zachętę do self-learningu z faktycznym wdrożeniem i wsparciem, dzięki czemu zachowany jest dobry balans. Jeśli jednak firma mówi wyłącznie o rzuceniu na głęboką wodę lub uczeniu się na własnych błędach bez żadnej struktury, warto mieć świadomość, że dla niektórych osób może to być trudne do ogarnięcia na początek.",
         "phrases": [
             "gotowość do nauki nowych rzeczy",
@@ -1189,6 +1183,14 @@ KEYWORD_GROUPS = [
         ],
     },
     {
+        "translation": "Może oznaczać, że rola nie jest precyzyjnie zdefiniowana i może obejmować różnorodne zadania – to może być ciekawe dla osób lubiących różnorodność, ale ryzyko przeciążenia też istnieje. Warto ustalić priorytety.",
+        "phrases": [
+            "szeroki zakres obowiązków",
+            "osoba do wszystkiego",
+            "wszechstronność",
+        ],
+    },
+    {
         "translation": "Może sugerować, że w firmie często pojawiają się niestandardowe sytuacje lub brakuje sprawdzonych procedur – wtedy rzeczywiście potrzebna jest kreatywność. Warto zapytać, jakie problemy zdarzają się najczęściej.",
         "phrases": [
             "kreatywne podejście do problemów",
@@ -1251,7 +1253,7 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "Być może w firmie panuje raczej bezpośrednia komunikacja – czasem dość otwarta i szczera, choć nie dla każdego komfortowa. W dobrze funkcjonującym środowisku feedback jest konstruktywny i podawany w sposób, który pomaga się rozwijać. Warto jednak zwrócić uwagę na sformułowania typu \"ostry feedback\", \"gruba skóra\" czy \"nie dla mięczaków\" – mogą one sugerować, że sposób przekazywania uwag bywa dosadny, co nie każdemu odpowiada, ale nie musi od razu oznaczać toksycznej kultury. Dobrze przy rozmowie zapytać, jak wygląda typowa sesja feedbackowa i czy firma szkoli przełożonych w udzielaniu informacji zwrotnej – to pomoże ocenić, czy ten styl komunikacji będzie dla Ciebie odpowiedni.",
+        "translation": "Być może w firmie panuje bezpośrednia komunikacja – czasem dość ostra. W zdrowym środowisku feedback jest konstruktywny i podawany w sposób, który nie rani. Warto jednak zwrócić uwagę na sformułowania typu \"ostry feedback\", \"gruba skóra\" czy \"nie dla mięczaków\" – mogą one sugerować, że sposób przekazywania uwag bywa dosadny, a czasem nawet graniczący z krytyką osobistą. Dobrze przy rozmowie zapytać, jak wygląda typowa sesja feedbackowa i czy firma szkoli przełożonych w udzielaniu konstruktywnej informacji zwrotnej.",
         "phrases": [
             "odporność na krytykę",
             "przyjmowanie krytyki",
