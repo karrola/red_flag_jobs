@@ -187,7 +187,7 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "Oferta pracy bez podanego wynagrodzenia to czerwona flaga, często wskazująca na nieprzejrzystą kulturę, ograniczenia budżetowe lub chęć zaoferowania niskiej pensji. Jeśli w ogłoszeniu o pracę nie ma wynagrodzenia, może to oznaczać, że nie ma otwartej i uczciwej kultury wokół wynagrodzeń. Podobnie, uzależnienie zarobków od efektów może prowadzić do niezdrowej rywalizacji, presji i wypalenia – zwłaszcza jeśli cele są wygórowane lub nie ma podstawy stałego wynagrodzenia. Warto dowiedzieć się, na jakiej podstawie przydzielany jest przychód. Można zapytać o widełki i medianę zarobków.",
+        "translation": "Warto zwrócić uwagę, czy w ofercie jest jasno podane wynagrodzenie. Brak tej informacji może czasem oznaczać, że firma nie ma do końca przejrzystego podejścia do kwestii finansowych lub dopiero szacuje budżet. Podobnie, jeśli zarobki są uzależnione wyłącznie od efektów, dobrze sprawdzić, czy istnieje też jakaś stała podstawa, w przeciwnym razie może to prowadzić do presji lub wypalenia, zwłaszcza gdy cele są trudne do osiągnięcia. Dobrą praktyką jest zapytać rekrutera o widełki lub medianę wynagrodzeń w zespole, ponieważ to pomoże ocenić, czy oferta jest uczciwa i przejrzysta.",
         "phrases": [
             "wynagrodzenie uzależnione od efektów",
             "atrakcyjny system prowizyjny",
@@ -310,7 +310,7 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "Niejasny zakres obowiązków, ryzyko przeciążenia. To standardowe sformułowanie często pojawia się w ogłoszeniach, ale jeśli jest jedynym opisem obowiązków lub pojawia się wielokrotnie, może sugerować, że firma nie ma jasno określonych ról i oczekuje, że pracownik będzie robił wszystko, co akurat jest potrzebne. Zwróc uwagę jak często zdarzają się zadania spoza zakresu i jak to wpływa na priorytety.",
+        "translation": "Warto podczas rozmowy zapytać, jak w praktyce wygląda zakres obowiązków – czy jest w miarę jasno określony, czy też firma oczekuje, że pracownik będzie robił różne rzeczy poza podstawowym zakresem. Dobrze upewnić się, jak często zdarzają się zadania spoza głównych obowiązków i jak wygląda ustalanie priorytetów. To pomoże ocenić, czy taka organizacja pracy będzie dla Ciebie komfortowa i czy nie grozi przeciążeniem.",
         "phrases": [
             "Other duties as assigned",
             "inne obowiązki zlecone przez przełożonego",
@@ -352,6 +352,9 @@ KEYWORD_GROUPS = [
             "generalista",
             "jack of all trades",
             "master of none",
+            "szeroki zakres obowiązków",
+            "osoba do wszystkiego",
+            "wszechstronność",
         ],
     },
     {
@@ -736,7 +739,7 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "Te sformułowania często służą do gaszenia uzasadnionej krytyki ze strony pracowników. Wskazują na kulturę, w której nie można narzekać, zgłaszać problemów ani mówić o przeciążeniu – bo to \"negatywne nastawienie\". Pracownik ma \"szukać rozwiązań\" samodzielnie, nawet jeśli problem leży po stronie zarządzania. Dowiedz się, czy w firmie można zgłaszać problemy i krytykę, czy to uznawane za \"negatywne nastawienie\".",
+        "translation": "Te sformułowania chyba często służą do gaszenia uzasadnionej krytyki ze strony pracowników. Wskazują na kulturę, w której chyba nie można narzekać, zgłaszać problemów ani mówić o przeciążeniu – bo to podobno \"negatywne nastawienie\". Pracownik ma raczej \"szukać rozwiązań\" samodzielnie, nawet jeśli problem leży po stronie zarządzania. Dowiedz się, czy w firmie można zgłaszać problemy i krytykę, czy byłoby to uznawane za \"negatywne nastawienie\". Ważne jest jednak to, że jeśli praca dotyczy pracy z klientem, to \"pozytywne nastawienie\" w ofercie wcale nie musi być negatywnym sformułowaniem.",
         "phrases": [
             "szukanie rozwiązań nie problemów",
             "pozytywne nastawienie",
@@ -893,7 +896,7 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "Zapowiedź braku zaufania i mikrozarządzania, zwłaszcza na początku. Firma wymusza na pracowniku udowodnienie swojej wartości poprzez stawienie się fizycznie w biurze przez dłuższy okres (często 3-6 miesięcy), co sugeruje, że nie wierzy w samodyscyplinę pracowników lub ma potrzebę stałego nadzoru. Po tym okresie \"możliwość\" często okazuje się iluzoryczna (np. \"akurat teraz nie ma takiej opcji\", \"zespół woli być razem\", \"zdalne tylko w wyjątkowych sytuacjach\"). Jest to red flag dla osób szukających rzeczywistej elastyczności – sygnalizuje kulturę opartą na obecności, a nie na wynikach. Zapytaj o konkretne warunki – po jakim czasie, na jakich zasadach i czy to faktycznie działa.",
+        "translation": "To sformułowanie może czasem oznaczać pewną ostrożność firmy, zwłaszcza na początku współpracy. Być może chodzi o to, żeby pracownik najpierw poznał zespół i zasady pracy w biurze – często przez okres 3–6 miesięcy. Nie musi to od razu wynikać z braku zaufania, ale warto mieć świadomość, że w niektórych firmach późniejsza elastyczność bywa ograniczona (np. \"w tej chwili nie ma takiej opcji\", \"zespół woli być razem\"). Dla osób, którym zależy na rzeczywistej pracy zdalnej, dobrze będzie zapytać o konkretne warunki: po jakim czasie, na jakich zasadach i czy faktycznie pracownicy mogą z tej opcji skorzystać.",
         "phrases": [
             "możliwość pracy zdalnej po wdrożeniu",
             "praca zdalna po okresie próbnym",
@@ -922,7 +925,7 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "Firma nie zapewnia żadnego systematycznego onboardingu, szkoleń, budżetu na rozwój ani wsparcia mentorskiego. Oczekuje się, że nowy pracownik sam ogarnie wszystkie narzędzia, procesy i technologie, często metodą prób i błędów na \"żywym organizmie\" (kliencie/produkcji). Występuje przerzucenie kosztów i ciężaru wdrożenia na pracownika. Prowadzi to do ogromnej frustracji, chaosu, powtarzania tych samych błędów przez różnych ludzi oraz poczucia, że \"nikt nie ma dla ciebie czasu\". Jest to często spotykane w firmach, które nie mają wypracowanych procesów i nie chcą inwestować w ludzi. Zapytaj, czy firma zapewnia budżet szkoleniowy lub mentora, czy liczy wyłącznie na własną inicjatywę.",
+        "translation": "Warto docenić, że firma szuka osób zmotywowanych do rozwoju i samodzielnego uczenia się, to pozytywny sygnał. Jednocześnie dobrze jest podczas rozmowy sprawdzić, czy samodzielność w zdobywaniu wiedzy idzie w parze z jakimś podstawowym wsparciem ze strony firmy. Można zapytać, czy jest onboarding, dostęp do mentora, budżet szkoleniowy czy ktoś wyznaczony do pomocy na starcie. Wiele firm łączy zachętę do self-learningu z faktycznym wdrożeniem i wsparciem, dzięki czemu zachowany jest dobry balans. Jeśli jednak firma mówi wyłącznie o rzuceniu na głęboką wodę lub uczeniu się na własnych błędach bez żadnej struktury, warto mieć świadomość, że dla niektórych osób może to być trudne do ogarnięcia na początek.",
         "phrases": [
             "gotowość do nauki nowych rzeczy",
             "chęć do nauki",
@@ -1241,14 +1244,6 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "Może oznaczać, że rola nie jest precyzyjnie zdefiniowana i może obejmować różnorodne zadania – to może być ciekawe dla osób lubiących różnorodność, ale ryzyko przeciążenia też istnieje. Warto ustalić priorytety.",
-        "phrases": [
-            "szeroki zakres obowiązków",
-            "osoba do wszystkiego",
-            "wszechstronność",
-        ],
-    },
-    {
         "translation": "Może sugerować, że w firmie często pojawiają się niestandardowe sytuacje lub brakuje sprawdzonych procedur – wtedy rzeczywiście potrzebna jest kreatywność. Warto zapytać, jakie problemy zdarzają się najczęściej.",
         "phrases": [
             "kreatywne podejście do problemów",
@@ -1301,7 +1296,7 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "Niemożliwe matematycznie i niezdrowe psychologicznie. Oznacza oczekiwanie pracy po godzinach bez rekompensaty. Pracownik, który daje 100%, jest już w pełni zaangażowany – oczekiwanie więcej to wypalanie. Warto zapytać, jak oceniane i ważne jest faktyczne zaangażowanie.",
+        "translation": "Czasami może to oznaczać oczekiwanie pracy po godzinach bez rekompensaty. Pracownik, który daje 100%, jest już w pełni zaangażowany – oczekiwanie więcej może powodować wypalanie. Warto zapytać, jak oceniane i ważne jest faktyczne zaangażowanie.",
         "phrases": [
             "zaangażowanie 110%",
             "110%",
@@ -1359,7 +1354,7 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "Być może w firmie panuje bezpośrednia komunikacja – czasem dość ostra. W zdrowym środowisku feedback jest konstruktywny i podawany w sposób, który nie rani. Warto jednak zwrócić uwagę na sformułowania typu \"ostry feedback\", \"gruba skóra\" czy \"nie dla mięczaków\" – mogą one sugerować, że sposób przekazywania uwag bywa dosadny, a czasem nawet graniczący z krytyką osobistą. Dobrze przy rozmowie zapytać, jak wygląda typowa sesja feedbackowa i czy firma szkoli przełożonych w udzielaniu konstruktywnej informacji zwrotnej.",
+        "translation": "Być może w firmie panuje raczej bezpośrednia komunikacja – czasem dość otwarta i szczera, choć nie dla każdego komfortowa. W dobrze funkcjonującym środowisku feedback jest konstruktywny i podawany w sposób, który pomaga się rozwijać. Warto jednak zwrócić uwagę na sformułowania typu \"ostry feedback\", \"gruba skóra\" czy \"nie dla mięczaków\" – mogą one sugerować, że sposób przekazywania uwag bywa dosadny, co nie każdemu odpowiada, ale nie musi od razu oznaczać toksycznej kultury. Dobrze przy rozmowie zapytać, jak wygląda typowa sesja feedbackowa i czy firma szkoli przełożonych w udzielaniu informacji zwrotnej – to pomoże ocenić, czy ten styl komunikacji będzie dla Ciebie odpowiedni.",
         "phrases": [
             "odporność na krytykę",
             "przyjmowanie krytyki",
