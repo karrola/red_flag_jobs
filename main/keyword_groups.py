@@ -1,6 +1,6 @@
 KEYWORD_GROUPS = [
     {
-        "translation": "Jeśli ogłoszenie wspomina o \"kulturze wysokiej wydajności\", może to oznaczać, że pracownicy są narażeni na wypalenie zawodowe. Większość ludzi chciałaby być częścią wysokowydajnego zespołu, ale rzeczywistość jest taka, że potrzeba silnego lidera, aby zrobić to dobrze. Ukryte oczekiwanie związane z tym zwrotem to: „robimy co trzeba, aby wykonać pracę, niezależnie od kosztów”. Zapytaj, jak firma wspiera pracowników w osiąganiu tych wyników i co się dzieje, gdy ktoś ma gorszy miesiąc.",
+        "translation": "Hasła z tej kategorii dotyczą środowisk nastawionych na wyniki, efektywność i wysokie tempo pracy. Warto zweryfikować, jak firma definiuje oczekiwane wyniki oraz czy idą one w parze z odpowiednim wsparciem i realistycznym obciążeniem pracą.",
         "phrases": [
             "kultura wysokiej wydajności",
             "wysoka kultura pracy",
@@ -52,10 +52,12 @@ KEYWORD_GROUPS = [
             "perfekcyjność",
             "excellence driven",
             "pursuit of excellence",
+            "non stop zadania",
+            "wszyscy są zajęci",
         ],
     },
     {
-        "translation": "Dobre relacje ze współpracownikami są ważne, a posiadanie przyjaciół w pracy może zwiększyć satysfakcję i szczęście. Jednak jeśli ogłoszenie twierdzi, że współpracownicy są jak rodzina, może to oznaczać, że firma oczekuje bezwarunkowej lojalności i pracy po godzinach. Bycie zgranym zespołem, który współpracuje i ufa sobie nawzajem, to jedno, ale gdy pracodawca używa zwrotów takich jak „jesteśmy tutaj jak rodzina” – zwykle oznacza to brak granic. Zapytaj jaki mają stosunek do pracy po godzinach.",
+        "translation": "Hasła z tej kategorii odnoszą się do nieformalnej, bardzo bliskiej kultury zespołowej i silnego akcentu na relacje między pracownikami. Choć przyjazna atmosfera w pracy jest wartościowa, określenia typu „jesteśmy jak rodzina” często bywają sygnałem, że granice między pracą a życiem prywatnym mogą być mniej wyraźne, a oczekiwania wobec zaangażowania wykraczać poza standardowe ramy. Warto dopytać o podejście firmy do dostępności po godzinach, nadgodzin oraz realnych granic współpracy.",
         "phrases": [
             "jesteśmy jak rodzina",
             "jak rodzina",
@@ -92,10 +94,11 @@ KEYWORD_GROUPS = [
             "atmosfera bez spiny",
             "swobodna atmosfera",
             "luz w pracy",
+            "poczucie humoru",
         ],
     },
     {
-        "translation": "Upoważnianie pracowników to modne obecnie sformułowanie, ale jeśli musisz komuś dać władzę, oznacza to, że nigdy jej nie miał. Często jest to przesunięcie władzy, które nigdy nie dochodzi do skutku. Dodatkowo, \"empowerment\" to słowo często nadużywane bez pokrycia. Aby naprawdę upoważnić pracowników, muszą oni mieć możliwość wyrażania obaw bez obawy przed zemstą i mieć wpływ na sposób swojej pracy. Warto zapytać o konkretny przykład decyzji, którą może podjąć pracownik samodzielnie, bez zgody przełożonego.",
+        "translation": "Hasła z tej kategorii odnoszą się do autonomii, samodzielności oraz wpływu pracownika na sposób wykonywania pracy i podejmowane decyzje. Nie są same w sobie red flagą – wiele nowoczesnych organizacji faktycznie stawia na decentralizację decyzji i większą odpowiedzialność zespołów. Warto jednak sprawdzić, jak ta autonomia wygląda w praktyce, czyli jakie konkretne decyzje można podejmować samodzielnie oraz jakie są realne granice odpowiedzialności i nadzoru.",
         "phrases": [
             "we empower you",
             "dajemy ci władzę",
@@ -128,7 +131,7 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "Zwrot \"musi radzić sobie ze stresem\" jest czerwoną flagą. Wypalenie zawodowe i słabe zdrowie psychiczne to poważne problemy w wielu branżach – stres jest czymś, co organizacje powinny starać się redukować, a nie wymagać od pracowników, aby go znosili. Oferty pracy, które podkreślają odporność na stres, często sygnalizują, że środowisko pracy jest źle zorganizowane, a presja jest nieodłącznym elementem codzienności. Spytaj, czy firma coś robi, żeby stres u pracownika chociaż zminimalizować minimalizować.",
+        "translation": "Hasła z tej kategorii odnoszą się do tempa pracy, pracy pod presją czasu oraz radzenia sobie z wymagającymi terminami lub sytuacjami stresowymi. Wiele stanowisk wiąże się z dynamicznym środowiskiem i koniecznością pracy w zmiennych warunkach. Warto jednak sprawdzić, jak często pojawia się presja czasu w codziennej pracy oraz czy jest ona związana z odpowiednim planowaniem, czy raczej z częstymi sytuacjami kryzysowymi i przeciążeniem. Warto też rozważyć idywidualne predyspozycje czy praca pod presją jest dobrym wyborem.",
         "phrases": [
             "must handle stress",
             "odporność na stres",
@@ -211,7 +214,7 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "Warto zwrócić uwagę, czy w ofercie jest jasno podane wynagrodzenie. Brak tej informacji może czasem oznaczać, że firma nie ma do końca przejrzystego podejścia do kwestii finansowych lub dopiero szacuje budżet. Podobnie, jeśli zarobki są uzależnione wyłącznie od efektów, dobrze sprawdzić, czy istnieje też jakaś stała podstawa, w przeciwnym razie może to prowadzić do presji lub wypalenia, zwłaszcza gdy cele są trudne do osiągnięcia. Dobrą praktyką jest zapytać rekrutera o widełki lub medianę wynagrodzeń w zespole, ponieważ to pomoże ocenić, czy oferta jest uczciwa i przejrzysta.",
+        "translation": "Zwróć uwagę na sposób przedstawiania wynagrodzenia w ofercie oraz jego struktury (np. podstawa, prowizja, premie). Warto sprawdzić, czy wynagrodzenie jest jasno określone oraz jaka część stanowi stałą podstawę, a jaka zależy od wyników lub prowizji, aby ocenić przewidywalność i stabilność zarobków.",
         "phrases": [
             "wynagrodzenie uzależnione od efektów",
             "atrakcyjny system prowizyjny",
@@ -260,7 +263,7 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "Wymaganie skupienia na wielu zadaniach jednocześnie. Badania pokazują, że ludzki mózg nie jest przystosowany do prawdziwej wielozadaniowości – zamiast tego przełącza się między zadaniami, co obniża wydajność i zwiększa liczbę błędów. W ogłoszeniach o pracę może to oznaczać, że firma oczekuje od jednej osoby pracy na kilku stanowiskach lub że panuje tam chaos organizacyjny. Dowiedz się, czy chodzi o różnorodne projekty, czy raczej o robienie kilku rzeczy naraz z braku organizacji.",
+        "translation": "Hasła z tej kategorii dotyczą pracy nad wieloma zadaniami równolegle, co w praktyce oznacza przełączanie się między nimi, a nie równoczesne wykonywanie. Warto sprawdzić, czy multitasking jest uporządkowany i priorytetyzowany, czy wiąże się z nadmiernymi wymaganiami a przez to częstą zmianą kontekstu bez jasnej organizacji pracy.",
         "phrases": [
             "wielozadaniowość",
             "multitasking",
@@ -287,7 +290,7 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "Warto podczas rozmowy zapytać, jak w praktyce wygląda zakres obowiązków – czy jest w miarę jasno określony, czy też firma oczekuje, że pracownik będzie robił różne rzeczy poza podstawowym zakresem. Dobrze upewnić się, jak często zdarzają się zadania spoza głównych obowiązków i jak wygląda ustalanie priorytetów. To pomoże ocenić, czy taka organizacja pracy będzie dla Ciebie komfortowa i czy nie grozi przeciążeniem.",
+        "translation": "Warto podczas rozmowy zapytać, jak w praktyce wygląda zakres obowiązków – czy jest w miarę jasno określony, czy też firma oczekuje, że pracownik będzie robił różne rzeczy poza podstawowym zakresem. Dobrze upewnić się, jak często zdarzają się zadania spoza głównych obowiązków i jak wygląda ustalanie priorytetów. To pomoże ocenić, czy taka organizacja pracy będzie komfortowa i czy nie grozi przeciążeniem.",
         "phrases": [
             "Other duties as assigned",
             "inne obowiązki zlecone przez przełożonego",
@@ -329,10 +332,13 @@ KEYWORD_GROUPS = [
             "generalista",
             "jack of all trades",
             "master of none",
+            "szeroki zakres obowiązków",
+            "osoba do wszystkiego",
+            "wszechstronność",
         ],
     },
     {
-        "translation": "Otwarcie przyznawany brak organizacji. Jeśli firma sama przyznaje, że panuje u niej chaos, należy potraktować to poważnie – to nie jest \"zaleta\", tylko problem do rozwiązania. Pracodawca, który oczekuje, że to pracownik będzie dostosowywał się do chaosu (zamiast go eliminować), prawdopodobnie nie inwestuje w procesy ani zarządzanie. Zapytaj, czy firma pracuje nad ograniczeniem chaosu.",
+        "translation": "Takie hasła odnoszą się do środowisk pracy o wysokiej dynamice, częstych zmianach oraz dużej zmienności zadań i priorytetów. Upewnij się, czy tempo zmian jest wspierane odpowiednimi procesami i organizacją pracy, czy wymaga ciągłego dostosowywania się bez stabilnych ram działania.",
         "phrases": [
             "chaos",
             "chaotyczne środowisko",
@@ -343,11 +349,6 @@ KEYWORD_GROUPS = [
             "umiejętność pracy w chaosie",
             "dynamiczne środowisko",
             "szybko zmieniające się środowisko",
-            "klimat startupowy",
-            "startupowy",
-            "startup atmosphere",
-            "startup mindset",
-            "startup culture",
             "szybkie zmiany",
             "ciągłe zmiany",
             "dynamicznie rozwijająca się firma",
@@ -376,17 +377,12 @@ KEYWORD_GROUPS = [
             "płynne środowisko",
             "brak nudy",
             "nie ma nudy",
-        ],
-    },
-    {
-        "translation": "Może oznaczać częste zmiany personalne, brak stabilizacji lub oczekiwanie, że pracownik będzie dostosowywał się do ciągle zmieniających się warunków bez odpowiedniego wsparcia. W zdrowych organizacjach \"dynamiczny\" oznacza elastyczność – w toksycznych oznacza chaos. Zapytaj o średni staż pracy w zespole.",
-        "phrases": [
             "dynamiczny zespół",
             "dynamicznie",
         ],
     },
     {
-        "translation": "Paradoksalnie, \"elastyczność\" w ogłoszeniach często nie oznacza korzyści dla pracownika (np. możliwości pracy zdalnej), lecz oczekiwanie, że to pracownik będzie dostosowywał się do potrzeb firmy – w tym pracy w nadgodzinach, w weekendy czy poza standardowym harmonogramem. Warto sprawdzić, co firma konkretnie rozumie przez \"elastyczność\".",
+        "translation": "Hasła z tej kategorii odnoszą się do elastycznego podejścia do organizacji czasu pracy, takiego jak ruchome godziny rozpoczęcia pracy czy dopasowanie harmonogramu do zadań i projektów. Elastyczność może być zarówno korzyścią dla pracownika, jak i elementem organizacji pracy w firmie projektowej. Warto sprawdzić, jak dokładnie ta elastyczność wygląda w praktyce, czyli czy dotyczy realnej swobody pracownika, czy głównie dostosowania do potrzeb biznesowych.",
         "phrases": [
             "elastyczny czas pracy",
             "elastyczne godziny pracy",
@@ -406,7 +402,7 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "To klasyczny przykład \"fake benefitu\" – coś taniego i symbolicznego, co ma odwrócić uwagę od braku realnych korzyści, takich jak uczciwe wynagrodzenie, ubezpieczenie zdrowotne czy możliwość rozwoju. Jeśli firma chwali się owocowymi czwartkami, ale nie podaje widełek – to zły znak. Zapytaj o realne benefity – ubezpieczenie, budżet szkoleniowy, dodatkowe dni wolne.",
+        "translation": "Hasła z tej kategorii odnoszą się do benefitów pozapłacowych i elementów kultury biurowej, takich jak integracje, udogodnienia w miejscu pracy czy drobne benefity codzienne. Mogą one pozytywnie wpływać na komfort pracy i atmosferę w zespole. Warto jednak sprawdzić, jakie są kluczowe warunki zatrudnienia, takie jak wynagrodzenie, benefity finansowe, ubezpieczenie czy możliwości rozwoju, aby ocenić całość oferty w szerszym kontekście.",
         "phrases": [
             "owocowe czwartki",
             "owocowe",
@@ -458,7 +454,7 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "Może oznaczać brak doświadczonych pracowników, którzy mogliby wprowadzić procedury i kulturę szacunku. Często wiąże się z oczekiwaniem dyspozycyjności, pracy po godzinach i \"bycia częścią paczki\", gdzie granice między życiem zawodowym a prywatnym się zacierają. Może też sugerować wysoką rotację. Zapytaj, gdzie są starsi stażem pracownicy – jeśli ich nie ma, może to oznaczać wysoką rotację.",
+        "translation": "Hasła z tej kategorii odnoszą się do wieku i etapu kariery zespołu, sugerując przewagę osób młodszych lub na wczesnym etapie rozwoju zawodowego. Nie są same w sobie red flagą – w wielu firmach, szczególnie startupach i organizacjach technologicznych, jest to naturalna struktura zespołu. Warto jednak sprawdzić, jak wygląda doświadczenie zespołu w praktyce oraz czy w firmie obecne są osoby bardziej doświadczone, które wspierają rozwój i procesy organizacyjne.",
         "phrases": [
             "młody zespół",
             "ambitny zespół",
@@ -491,7 +487,7 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "Oczekiwanie, że pracownik będzie dostępny w zasadzie przez cały czas. W zdrowych organizaczy takie wymagania są jasno określone, kompensowane (dodatkowy odpoczynek lub wynagrodzenie) i nie dotyczą codzienności. Brak normowania czasu pracy często oznacza, że firma nie liczy nadgodzin lub oczekuje ich za darmo. Dowiedz się, czy czas po godzinach jest rekompensowany.",
+        "translation": "Hasła z tej kategorii odnoszą się do zakresu dostępności pracownika oraz organizacji czasu pracy, w tym pracy poza standardowymi godzinami, dyżurów lub pracy w trybie zmianowym. Na niektórych stanowiskach takie wymagania są naturalne. Warto jednak sprawdzić, jak często występuje praca poza standardowymi godzinami oraz czy nadgodziny i dyspozycyjność są jasno uregulowane i rekompensowane.",
         "phrases": [
             "dostosuj godziny do potrzeb firmy",
             "nierównomierne obciążenie godzinowe",
@@ -614,7 +610,7 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "Może oznaczać, że firma działa chaotycznie, nie ma jasnych procesów, a pracownicy są pozostawieni sami sobie. W zdrowych organizacjach procedury istnieją po to, aby ułatwiać pracę – ich brak to nie \"swoboda\", tylko organizacyjny bałagan. Zapytaj, jak firma radzi sobie z niejsanymi sytuacjami.",
+        "translation": "Hasła z tej kategorii odnoszą się do stopnia formalizacji pracy, istnienia procedur oraz podejścia do zasad i schematów działania. W niektórych organizacjach, szczególnie w środowiskach innowacyjnych lub szybko rozwijających się, mniejsza liczba formalnych procedur jest świadomym wyborem. Warto jednak sprawdzić, czy brak procedur wynika z elastyczności i autonomii zespołu, czy z niedojrzałości procesów i braku uporządkowania pracy.",
         "phrases": [
             "wyzwania zamiast procedur",
             "brak sztywnych ram",
@@ -658,7 +654,7 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "Często oznacza wysoką rotację – firma szybko awansuje, bo nie ma komu dać tych stanowisk, bo ludzie odchodzą. Może też oznaczać, że awans nie jest związany z realnymi kompetencjami, tylko z \"przetrwaniem\" lub dyspozycyjnością. Rzadko jest to oznaka stabilnej, zdrowej ścieżki kariery. Sprawdź, czy stanowiska nie zwalniają się przez rotację.",
+        "translation": "Hasła z tej kategorii odnoszą się do tempa rozwoju kariery oraz możliwości szybkiego awansu lub przejścia na wyższe stanowiska. W niektórych firmach, szczególnie szybko rosnących, awanse mogą następować dynamicznie. Warto jednak sprawdzić, od czego zależy tempo awansu (kompetencje, wyniki, staż) oraz jak wygląda typowa ścieżka kariery w dłuższym okresie.",
         "phrases": [
             "możliwość szybkiego awansu",
             "szybki awans",
@@ -691,7 +687,7 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "W kontekście pracy, \"lojalność\" często oznacza oczekiwanie, że pracownik nie będzie odchodził, nie będzie narzekał i będzie pracował ponad standard, nawet jeśli firma nie daje mu nic w zamian. Zdrowa relacja pracodawca-pracownik opiera się na wzajemności, a nie na jednostronnej lojalności, więc zapytaj jak firma okazuje swoją lojalność.",
+        "translation": "Hasła z tej kategorii dotyczą długoterminowej współpracy i stabilności zatrudnienia i nie są same w sobie czerwoną flagą. Warto jednak sprawdzić, czy oczekiwania wobec „lojalności” dotyczą jedynie czasu współpracy, czy także podejścia do zmiany pracy i przywiązania do firmy.",
         "phrases": [
             "lojalność",
             "lojalny",
@@ -722,48 +718,41 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "Te sformułowania często służą do gaszenia uzasadnionej krytyki ze strony pracowników. Wskazują na kulturę, w której nie można narzekać, zgłaszać problemów ani mówić o przeciążeniu – bo to \"negatywne nastawienie\". Pracownik ma \"szukać rozwiązań\" samodzielnie, nawet jeśli problem leży po stronie zarządzania. Dowiedz się, czy w firmie można zgłaszać problemy i krytykę, czy to uznawane za \"negatywne nastawienie\".",
+        "translation": "W wielu zawodach, szczególnie związanych z obsługą klienta, sprzedażą czy pracą zespołową, pozytywne nastawienie i inicjatywa są całkowicie normalnymi oczekiwaniami. Warto jednak zwrócić uwagę, czy za tymi hasłami nie kryje się oczekiwanie ciągłego optymizmu, ignorowania problemów lub akceptowania nadmiernego obciążenia pracą. Samo wystąpienie takich sformułowań nie jest czerwoną flagą – znaczenie ma kontekst i sposób, w jaki firma mówi o trudnościach, błędach oraz zgłaszaniu problemów.",
         "phrases": [
-            "szukanie rozwiązań nie problemów",
+            "rozwiązania a nie problemy",
             "pozytywne nastawienie",
             "nie boimy się ciężkiej pracy",
             "podejście can-do",
             "can-do attitude",
-            "can-do",
-            "szukamy kogoś z drivem",
-            "z drivem",
-            "szukamy kogoś z iskrą",
-            "z iskrą",
             "wyjście poza strefę komfortu",
             "poza strefę komfortu",
             "strefę komfortu",
             "proaktywna postawa",
-            "szukamy optymistów",
+            "optymizm",
             "pozytywna energia",
             "growth mindset",
             "mentalność wzrostu",
             "nastawienie na rozwiązania",
-            "szukamy ludzi z inicjatywą",
+            "ludzie z inicjatywą",
             "własna inicjatywa",
-            "szukamy kogoś z wewnętrznym motorem",
-            "szukamy samodzielnych inicjatorów",
             "nie narzekamy, działamy",
             "skupiamy się na rozwiązaniach",
             "narzekanie nie jest wskazane",
             "zero narzekania",
             "brak miejsca na pesymizm",
             "nie oczekujemy marudzenia",
-            "szukamy wojowników a nie maruderów",
             "pozytywny mindest",
             "energia i uśmiech",
             "nie ma złych nastrojów",
             "nie ma złych dni",
             "nie ma wymówek",
             "nie ma problemów są wyzwania",
+            "kreatywne podejście do problemów",
         ],
     },
     {
-        "translation": "To sposób na uzasadnienie niskich płac – \"robisz to z pasji, nie dla pieniędzy\". Może oznaczać, że firma wykorzystuje zaangażowanie pracowników, nie oferując uczciwego wynagrodzenia. Praca może być pasją, ale pasja nie płaci rachunków. Zapytaj wprost, jak firma dba o work-life balance.",
+        "translation": "Odwoływanie się do pasji, misji lub zaangażowania nie jest samo w sobie niczym złym. Dla wielu osób pasja do wykonywanej pracy jest źródłem satysfakcji zawodowej i dodatkowej motywacji. Warto jednak zachować ostrożność, jeśli oferta mocno akcentuje poświęcenie, „życie pracą” lub traktowanie pracy jako stylu życia, a jednocześnie niewiele mówi o warunkach zatrudnienia, wynagrodzeniu czy równowadze między życiem prywatnym a zawodowym.",
         "phrases": [
             "praca dla pasjonatów",
             "szukamy pasjonatów",
@@ -803,7 +792,7 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "Firma nie oferuje jasno określonej ścieżki awansu pionowego. Brak stanowisk, tytułów i hierarchii oznacza często, że pracownik nie ma możliwości rozwoju ani podwyżek wynikających z objęcia wyższego stanowiska – wszystko opiera się na \"uznaniowości\" lub wymagane jest przejście do innej firmy, by awansować. \"Otwarte drzwi\" i \"każdy mówi każdemu po imieniu\" mogą maskować chaos decyzyjny, brak odpowiedzialności oraz sytuację, w której stażysta ma taki sam głos jak dyrektor (ale bez realnej sprawczości). Jest to często pułapka dla osób ambitnych, które szybko odkrywają, że nie ma dokąd \"rosnąć\". Zapytaj, jak wygląda ścieżka awansu i podwyżki oraz czy w ogóle istnieją.",
+        "translation": "To może świadczyć o swobodnej kulturze organizacyjnej, braku nadmiernych formalności i łatwym dostępie do osób decyzyjnych. Warto jednak sprawdzić, jak w firmie wygląda podział odpowiedzialności, podejmowanie decyzji, rozwój kariery oraz zasady przyznawania awansów i podwyżek. Pozwoli to ocenić, czy deklarowana elastyczność idzie w parze z jasno określonymi zasadami funkcjonowania organizacji.",
         "phrases": [
             "płaska struktura",
             "brak hierarchii",
@@ -842,7 +831,7 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "To sformułowanie może czasem oznaczać pewną ostrożność firmy, zwłaszcza na początku współpracy. Być może chodzi o to, żeby pracownik najpierw poznał zespół i zasady pracy w biurze – często przez okres 3–6 miesięcy. Nie musi to od razu wynikać z braku zaufania, ale warto mieć świadomość, że w niektórych firmach późniejsza elastyczność bywa ograniczona (np. \"w tej chwili nie ma takiej opcji\", \"zespół woli być razem\"). Dla osób, którym zależy na rzeczywistej pracy zdalnej, dobrze będzie zapytać o konkretne warunki: po jakim czasie, na jakich zasadach i czy faktycznie pracownicy mogą z tej opcji skorzystać.",
+        "translation": "Hasła z tej kategorii nie muszą oznaczać niczego niepokojącego. Mogą jednak sugerować, że część deklarowanych możliwości, benefitów lub form organizacji pracy nie jest dostępna od razu albo zależy od spełnienia określonych warunków. Warto upewnić się, jakie zasady obowiązują w praktyce, kiedy dane rozwiązania stają się dostępne oraz czy pracownicy rzeczywiście mogą z nich korzystać.",
         "phrases": [
             "możliwość pracy zdalnej po wdrożeniu",
             "praca zdalna po okresie próbnym",
@@ -871,7 +860,7 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "Warto docenić, że firma szuka osób zmotywowanych do rozwoju i samodzielnego uczenia się, to pozytywny sygnał. Jednocześnie dobrze jest podczas rozmowy sprawdzić, czy samodzielność w zdobywaniu wiedzy idzie w parze z jakimś podstawowym wsparciem ze strony firmy. Można zapytać, czy jest onboarding, dostęp do mentora, budżet szkoleniowy czy ktoś wyznaczony do pomocy na starcie. Wiele firm łączy zachętę do self-learningu z faktycznym wdrożeniem i wsparciem, dzięki czemu zachowany jest dobry balans. Jeśli jednak firma mówi wyłącznie o rzuceniu na głęboką wodę lub uczeniu się na własnych błędach bez żadnej struktury, warto mieć świadomość, że dla niektórych osób może to być trudne do ogarnięcia na początek.",
+        "translation": "Hasła z tej kategorii często podkreślają znaczenie samodzielności, chęci rozwoju i ciągłego zdobywania nowych umiejętności. Nie jest to samo w sobie czerwoną flagą – w wielu branżach umiejętność uczenia się i adaptacji jest bardzo ceniona. Warto jednak dowiedzieć się, jakie wsparcie firma oferuje pracownikom w procesie wdrożenia i rozwoju oraz czy oczekiwana samodzielność idzie w parze z dostępem do odpowiednich narzędzi, wiedzy i pomocy ze strony zespołu.",
         "phrases": [
             "gotowość do nauki nowych rzeczy",
             "chęć do nauki",
@@ -904,10 +893,32 @@ KEYWORD_GROUPS = [
             "nie ma mentora, jest wikipeda",
             "jeśli nie wiesz, sam się dowiedz",
             "umiejętność szybkiego uczenia się",
+            "nie mamy czasu na rozwój",
+            "brak czasu na wdrożenie",
+            "ciężko o czas na dokumentację",
+            "nie ma mentora, bo każdy ma swoje zadania",
+            "nikt nie ma dla ciebie czasu",
+            "rzucamy na głęboką wodę",
+            "przecież dasz radę sam",
+            "wszyscy są zajęci swoimi projektami",
+            "brak opieki mentorskiej",
+            "brak czasu na szkolenia",
+            "nie mamy budżetu czasowego na rozwój",
+            "rozwój we własnym zakresie",
+            "onboarding trwa dzień",
+            "wszystkiego nauczysz się w praktyce",
+            "tu nie ma czasu na teorię",
+            "od razu do roboty",
+            "liczy się działanie a nie nauka",
+            "nie ma czasu na czytanie dokumentacji",
+            "dokumentacja nie istnieje",
+            "wiedza jest w głowach, nie na wiki",
+            "baza wiedzy nie istnieje",
+            "nie mamy luka na SOP",
         ],
     },
     {
-        "translation": "Mgliste sformułowanie, które często oznacza \"dopasujesz się do nas\" lub \"będziesz spełniał nasze niewypowiedziane oczekiwania\". Może być używane do dyskryminacji lub wykluczania osób, które nie pasują do nieformalnych norm. Zapytaj, co to konkretnie oznacza, czy chodzi o wartości, czy o niewypowiedziane normy.",
+        "translation": "Hasła z tej kategorii odnoszą się zwykle do dopasowania do zespołu, wartości firmy oraz stylu współpracy – wiele organizacji zwraca uwagę na spójność kulturową i sposób pracy. Warto jednak dopytać, co dokładnie oznacza „dopasowanie” w praktyce: jakie wartości są kluczowe, jak są oceniane i czy nie wiąże się to z nieformalnymi, niewyrażonymi wprost oczekiwaniami.",
         "phrases": [
             "wysoka kultura osobista",
             "dopasowanie do zespołu",
@@ -938,7 +949,7 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "Firma zrzuca na nową osobę odpowiedzialność za naprawę wszystkich procesów, kultury organizacyjnej czy wyników, ale nie daje jej do tego realnej władzy, budżetu, zespołu ani wsparcia ze strony kadry zarządzającej. Oczekuje się, że jedna osoba (często na średnim lub niższym stanowisku) dokona \"transformacji\" i \"reorganizacji\", podczas gdy reszta firmy działa po staremu, a przełożeni blokują zmiany lub nie podejmują decyzji. Jest to klasyczna pułapka – odpowiedzialność za sukces (lub porażkę) ponosi \"lider zmian\", ale narzędzia do wprowadzenia tych zmian pozostają poza jego zasięgiem. Często kończy się to szybkim wypaleniem i odejściem, a firma szuka kolejnego \"zbawcy\". Zapytaj, jakie zasoby i realną władzę decyzyjną będzie miał \"lider zmian\".",
+        "translation": "Hasła z tej kategorii dotyczą ról związanych z wprowadzaniem zmian i usprawnianiem organizacji. Warto zweryfikować, jaki zakres realnej sprawczości, wsparcia i zasobów ma osoba odpowiedzialna za takie działania oraz czy firma faktycznie umożliwia wdrażanie zmian, czy jedynie deleguje za nie odpowiedzialność.",
         "phrases": [
             "lider zmian",
             "agent zmiany",
@@ -974,7 +985,7 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "Może sugerować, że firma kładzie duży nacisk na zaangażowanie i identyfikację z celami organizacji – czasem kosztem wynagrodzenia lub work-life balance. Dobrze zapytać, jak to się przekłada na codzienne warunki i benefity.",
+        "translation": "Hasła z tej kategorii podkreślają sens, misję lub większy cel stojący za działalnością firmy. Nie są same w sobie czerwoną flagą – dla wielu osób praca z poczuciem wpływu i znaczenia jest ważnym czynnikiem motywacyjnym. Warto jednak sprawdzić, jak deklarowana misja przekłada się na codzienne warunki pracy, wynagrodzenie oraz równowagę między życiem zawodowym a prywatnym.",
         "phrases": [
             "to więcej niż praca",
             "to nie jest zwykła praca",
@@ -1002,35 +1013,6 @@ KEYWORD_GROUPS = [
             "cel > kasa",
             "wynagrodzenie drugorzędne",
             "liczy się misja a nie hajs",
-        ],
-    },
-    {
-        "translation": "Może oznaczać, że firma działa w szybkim tempie i nie wygospodarowuje przestrzeni na systematyczne wdrażanie nowych osób czy tworzenie dokumentacji. Warto sprawdzić, jak wygląda onboarding i kto będzie wsparciem na początku.",
-        "phrases": [
-            "nie mamy czasu na rozwój",
-            "brak czasu na wdrożenie",
-            "ciężko o czas na dokumentację",
-            "non stop zadania",
-            "wszyscy są zajęci",
-            "nie ma mentora, bo każdy ma swoje zadania",
-            "nikt nie ma dla ciebie czasu",
-            "rzucamy na głęboką wodę",
-            "przecież dasz radę sam",
-            "wszyscy są zajęci swoimi projektami",
-            "brak opieki mentorskiej",
-            "brak czasu na szkolenia",
-            "nie mamy budżetu czasowego na rozwój",
-            "rozwój we własnym zakresie",
-            "onboarding trwa dzień",
-            "wszystkiego nauczysz się w praktyce",
-            "tu nie ma czasu na teorię",
-            "od razu do roboty",
-            "liczy się działanie a nie nauka",
-            "nie ma czasu na czytanie dokumentacji",
-            "dokumentacja nie istnieje",
-            "wiedza jest w głowach, nie na wiki",
-            "baza wiedzy nie istnieje",
-            "nie mamy luka na SOP",
         ],
     },
     {
@@ -1089,7 +1071,7 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "Może sugerować, że mimo deklaracji autonomii, w praktyce funkcjonuje dość szczegółowa kontrola – np. raportowanie, rejestracja czasu. Warto doprecyzować, na czym polega ta kontrola i gdzie kończy się zaufanie.",
+        "translation": "Hasła z tej kategorii mogą wskazywać, że w organizacji istnieje określony poziom raportowania, monitorowania pracy lub formalnych procesów kontroli realizacji zadań. Nie jest to samo w sobie czerwoną flagą – w wielu firmach takie mechanizmy są standardem i służą koordynacji pracy zespołów. Warto jednak sprawdzić, jak szczegółowe są te procesy i w jakim stopniu wpływają na codzienną autonomię oraz sposób wykonywania pracy.",
         "phrases": [
             "dajemy zaufanie, ale kontrolujemy",
             "zaufanie, ale weryfikacja",
@@ -1115,11 +1097,11 @@ KEYWORD_GROUPS = [
             "wgląd w ekran",
             "audyt każdej czynności",
             "mikrozrządzenie",
-            "micromanagement (nawet jak nie piszą wprost)",
+            "micromanagement",
         ],
     },
     {
-        "translation": "Może sugerować, że środowisko pracy jest wymagające i nie każdy się w nim odnajdzie. To może być szczera informacja zwrotna – ale warto sprawdzić, czy chodzi o ambitne wyzwania, czy raczej o trudne warunki.",
+        "translation": "Może sugerować, że środowisko pracy jest wymagające i nie każdy się w nim odnajdzie. Warto sprawdzić, czy chodzi o ambitne wyzwania, czy raczej o trudne warunki.",
         "phrases": [
             "nie dla każdego",
             "praca nie dla leniwych",
@@ -1148,6 +1130,8 @@ KEYWORD_GROUPS = [
             "nie dla płaczków",
             "nie dla ludzi którzy się poddają",
             "nie dla osób które nie lubią presji",
+            "praca pełna wyzwań",
+            "wyzwania",
         ],
     },
     {
@@ -1183,20 +1167,6 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "Może oznaczać, że rola nie jest precyzyjnie zdefiniowana i może obejmować różnorodne zadania – to może być ciekawe dla osób lubiących różnorodność, ale ryzyko przeciążenia też istnieje. Warto ustalić priorytety.",
-        "phrases": [
-            "szeroki zakres obowiązków",
-            "osoba do wszystkiego",
-            "wszechstronność",
-        ],
-    },
-    {
-        "translation": "Może sugerować, że w firmie często pojawiają się niestandardowe sytuacje lub brakuje sprawdzonych procedur – wtedy rzeczywiście potrzebna jest kreatywność. Warto zapytać, jakie problemy zdarzają się najczęściej.",
-        "phrases": [
-            "kreatywne podejście do problemów",
-        ],
-    },
-    {
         "translation": "Cele to standard – ale mogą sugerować, że są one dość wyśrubowane i od ich realizacji wiele zależy. Warto przy rozmowie zapytać, jak wygląda wsparcie w osiąganiu celów i co się dzieje, gdy się ich nie zrealizuje.",
         "phrases": [
             "orientacja na cel",
@@ -1205,14 +1175,9 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "Paradoksalnie – firmy, które naprawdę oferują stabilne zatrudnienie, rzadko to podkreślają. Jeśli ogłoszenie to akcentuje, może to oznaczać, że firma ma problem z rotacją i próbuje zachęcić do pozostania, ale nie poprzez dobre warunki, tylko poprzez obietnicę \"stabilności\". Warto zapytać o przeciętny staż pracy w zespole.",
+        "translation": "Warto zweryfikować, jaka jest docelowa forma umowy, jak wygląda stabilność zespołu oraz jakie są realne warunki kontynuacji współpracy po okresie początkowym.",
         "phrases": [
             "stabilne zatrudnienie",
-        ],
-    },
-    {
-        "translation": "Często oznacza, że firma unika kosztów związanych z umową o pracę i może łatwo zakończyć współpracę. \"Okres próbny\" w ramach umowy zlecenie to oksymoron – ta forma zatrudnienia z definicji nie daje stabilności. Dobrze zapytać o docelową formę zatrudnienia i warunki przejścia.",
-        "phrases": [
             "umowa zlecenie na okres próbny",
         ],
     },
@@ -1223,27 +1188,19 @@ KEYWORD_GROUPS = [
             "startup",
             "jak w startupie",
             "startupowo",
+            "klimat startupowy",
+            "startupowy",
+            "startup atmosphere",
+            "startup mindset",
+            "startup culture",
         ],
     },
     {
-        "translation": "Może oznaczać, że firma ma do czynienia z wymagającymi klientami i nie zawsze interweniuje w konfliktach – oczekuje samodzielności od pracownika. Warto zapytać o procedury wsparcia w trudnych sytuacjach.",
+        "translation": "Może oznaczać, że firma ma do czynienia z wymagającymi klientami. Warto zapytać o procedury wsparcia w trudnych sytuacjach.",
         "phrases": [
             "umiejętność radzenia sobie z trudnym klientem",
             "trudny klient",
             "trudni klienci",
-        ],
-    },
-    {
-        "translation": "\"Wyzwania\" w zdrowym miejscu pracy to ambitne projekty i rozwój. W toksycznym – to radzenie sobie z chronicznymi problemami organizacyjnymi, którymi nikt nie chce się zająć. Warto sprawdzić na czym polegają te wyzwania.",
-        "phrases": [
-            "praca pełna wyzwań",
-            "wyzwania",
-        ],
-    },
-    {
-        "translation": "Może sugerować, że w zespole panuje luźna atmosfera – ale warto zapytać, czy przypadkiem nie chodzi o to, by pracownik \"dobrze znosił\" nie zawsze komfortowe sytuacje czy żarty, zamiast je zgłaszać. Dobrze jest doprecyzować, jak firma radzi sobie z konfliktami.",
-        "phrases": [
-            "poczucie humoru",
         ],
     },
     {
@@ -1253,11 +1210,11 @@ KEYWORD_GROUPS = [
         ],
     },
     {
-        "translation": "Być może w firmie panuje bezpośrednia komunikacja – czasem dość ostra. W zdrowym środowisku feedback jest konstruktywny i podawany w sposób, który nie rani. Warto jednak zwrócić uwagę na sformułowania typu \"ostry feedback\", \"gruba skóra\" czy \"nie dla mięczaków\" – mogą one sugerować, że sposób przekazywania uwag bywa dosadny, a czasem nawet graniczący z krytyką osobistą. Dobrze przy rozmowie zapytać, jak wygląda typowa sesja feedbackowa i czy firma szkoli przełożonych w udzielaniu konstruktywnej informacji zwrotnej.",
+        "translation": "Takie hasła odnoszą się do sposobu udzielania informacji zwrotnej oraz stylu komunikacji w zespole. W wielu firmach stawia się na bezpośredni i częsty feedback, który ma wspierać rozwój i usprawniać współpracę. Warto jednak sprawdzić, jak w praktyce wygląda przekazywanie uwag, czy jest ono konstruktywne oraz czy sposób komunikacji odpowiada preferencjom kandydata.",
         "phrases": [
             "odporność na krytykę",
             "przyjmowanie krytyki",
-            "konstruktywna krytyka (jako przykrywka hejtu)",
+            "konstruktywna krytyka",
             "otwartość na feedback",
             "informacja zwrotna",
             "feedback na każdym kroku",
