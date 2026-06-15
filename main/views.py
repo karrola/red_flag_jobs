@@ -3,13 +3,7 @@ from django.core.cache import cache
 from .scraper import get_reviews
 from .wordcloud import keywords, generate_wordcloud
 from .highlight_keywords import highlight_keywords
-
-
-
-
-URL_GOWORK = "https://www.gowork.pl/opinie_czytaj,19205"
-
-# Create your views here.
+import hashlib
 
 def offer_form(request):
     if request.method == "POST":
@@ -27,11 +21,22 @@ def company_score(request):
     })
 
 def offer_analysis(request):
-    offer_text = request.session.get("offer_text", "") 
-    highlighted_text, detections = highlight_keywords(offer_text) if offer_text else (None, [])
+    offer_text = request.session.get("offer_text", "")
+    text_hash = hashlib.md5(offer_text.encode()).hexdigest()
+    cache_key = f"offer_highlights_{text_hash}"
+
+    cached = cache.get(cache_key)
+
+    if cached:
+        highlighted_text = cached["highlighted_text"]
+        detections = cached["detections"]
+    else:
+        highlighted_text, detections = highlight_keywords(offer_text) if offer_text else (None, [])
+        cache.set(cache_key, {"highlighted_text": highlighted_text, "detections": detections}, timeout=60 * 60)
+
     return render(request, 'main/offer_analysis.html', {
         "highlighted_text": highlighted_text,
-        "detections": detections
+        "detections": detections,
     })
 
 
