@@ -1,4 +1,7 @@
+from urllib.parse import urlencode
+
 from django.shortcuts import render, redirect
+from django.urls import reverse
 from django.core.cache import cache
 from .scraper import get_reviews
 from .wordcloud import keywords, generate_wordcloud
@@ -7,17 +10,27 @@ import hashlib
 
 def offer_form(request):
     if request.method == "POST":
-        request.session["gowork_url"] = request.POST.get("gowork_url", "")
-        request.session["offer_text"] = request.POST.get("offer", "")  
-        return redirect("company_score")
-    
+        company = request.POST.get("company", "").strip()
+        position = request.POST.get("position", "").strip()
+
+        request.session["company"] = company
+        request.session["position"] = position
+        request.session["gowork_url"] = request.POST.get("gowork_url", "").strip()
+        request.session["offer_text"] = request.POST.get("offer", "").strip()
+
+        query = urlencode({"company": company, "position": position})
+        return redirect(f"{reverse('company_score')}?{query}")
+
     return render(request, "main/offer_form.html")
 
 def company_score(request):
-    gowork_url = request.session.get("gowork_url", "")
+    company = request.GET.get("company", request.session.get("company", ""))
+    position = request.GET.get("position", request.session.get("position", ""))
 
     return render(request, "main/company_score.html", {
-        "gowork_url": gowork_url,
+        "company": company,
+        "position": position,
+        "gowork_url": request.session.get("gowork_url", ""),
     })
 
 def offer_analysis(request):

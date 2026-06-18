@@ -89,6 +89,42 @@
             color: #1e40af;
         }
 
+        .basic-info {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .info-row {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .info-label {
+            font-weight: 600;
+            color: #374151;
+            font-size: 0.95rem;
+        }
+
+        .info-value {
+            color: #1f2937;
+            font-size: 1rem;
+        }
+
+        .offer-content {
+            line-height: 1.8;
+            white-space: pre-wrap;
+            color: #1f2937;
+        }
+
+        .wordcloud-img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+
         @media (max-width: 768px) {
             body {
                 padding: 20px 15px;
@@ -115,7 +151,16 @@
 
         <div class="card">
             <div class="section-title">Podstawowe informacje</div>
-            <div>*tu będzie reszta*</div>
+            <div class="basic-info">
+                <div class="info-row">
+                    <span class="info-label">Firma:</span>
+                    <span class="info-value">{{ company|default:"—" }}</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Stanowisko:</span>
+                    <span class="info-value">{{ position|default:"—" }}</span>
+                </div>
+            </div>
         </div>
 
         <div class="card"

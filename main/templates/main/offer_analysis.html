@@ -1,3 +1,8 @@
-<div style="line-height: 1.8; white-space: pre-wrap;">
-    {{ highlighted_text|safe }}
+<div class="card">
+    <div class="section-title">Analiza treści ogłoszenia</div>
+    {% if highlighted_text %}
+        <div class="offer-content">{{ highlighted_text|safe }}</div>
+    {% else %}
+        <p class="info-value">Brak treści oferty do analizy.</p>
+    {% endif %}
 </div>

@@ -1,5 +1,10 @@
-<div>
-    <img src="data:image/png;base64,{{ wordcloud }}" 
-         alt="" 
-         class="wordcloud-img">
+<div class="card">
+    <div class="section-title">Mapa słów GoWork</div>
+    {% if wordcloud %}
+        <img src="data:image/png;base64,{{ wordcloud }}"
+             alt="Mapa słów GoWork"
+             class="wordcloud-img">
+    {% else %}
+        <p class="info-value">Brak linku do GoWork.pl — nie można wygenerować mapy słów.</p>
+    {% endif %}
 </div>
