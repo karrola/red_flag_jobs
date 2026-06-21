@@ -58,14 +58,16 @@ def wordcloud_fragment(request):
 
     if not gowork_url:
         return render(request, "main/wordcloud.html")
-    
-    wordcloud_b64 = cache.get("gowork_url")
+
+    url_hash = hashlib.sha256(gowork_url.encode()).hexdigest()
+    cache_key = f"wordcloud:{url_hash}"
+
+    wordcloud_b64 = cache.get(cache_key)
 
     if not wordcloud_b64:
         reviews = get_reviews(gowork_url)
         frequency = keywords(reviews)
         wordcloud_b64 = generate_wordcloud(frequency)
-        cache.set("gowork_url", wordcloud_b64, timeout=60 * 60)
+        cache.set(cache_key, wordcloud_b64, timeout=60 * 60)
 
     return render(request, "main/wordcloud.html", {"wordcloud": wordcloud_b64})
-
